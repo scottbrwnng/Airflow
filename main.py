@@ -1,4 +1,5 @@
-import pandas
-import pprint
+import pandas as pd
 import os
-print(os.getcwd())
+import sqlalchemy
+import psycopg2
+print(psycopg2.__version__)
