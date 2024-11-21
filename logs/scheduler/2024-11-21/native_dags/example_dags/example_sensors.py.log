@@ -1,0 +1,16 @@
+[2024-11-20T22:18:11.576-0500] {processor.py:186} INFO - Started process (PID=11330) to work on /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-20T22:18:11.577-0500] {processor.py:914} INFO - Processing file /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-20T22:18:11.579-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.579-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-20T22:18:11.599-0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-20T22:18:11.790-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.790-0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-20T22:18:11.910-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.909-0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-11-20T22:18:11.922-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.921-0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-11-20T22:18:11.928-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.928-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-11-20T22:18:11.935-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.935-0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-11-20T22:18:11.942-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.941-0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-11-20T22:18:11.949-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.949-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-11-20T22:18:11.955-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.955-0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-11-20T22:18:11.956-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.955-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T22:18:11.972-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.972-0500] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-11-20T22:18:11.973-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:11.973-0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-20T22:18:11.988-0500] {processor.py:208} INFO - Processing /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.419 seconds

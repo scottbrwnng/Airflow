@@ -1,0 +1,15 @@
+[2024-11-20T22:18:06.352-0500] {processor.py:186} INFO - Started process (PID=11300) to work on /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-11-20T22:18:06.354-0500] {processor.py:914} INFO - Processing file /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-11-20T22:18:06.357-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.356-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-11-20T22:18:06.433-0500] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-11-20T22:18:06.896-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.896-0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2024-11-20T22:18:06.907-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.906-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2024-11-20T22:18:06.912-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.912-0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2024-11-20T22:18:06.920-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.920-0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_short_circuit_operator
+[2024-11-20T22:18:06.927-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.927-0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_short_circuit_operator
+[2024-11-20T22:18:06.935-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.935-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_short_circuit_operator
+[2024-11-20T22:18:06.943-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.942-0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_short_circuit_operator
+[2024-11-20T22:18:06.944-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.944-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T22:18:06.962-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.962-0500] {dag.py:3262} INFO - Creating ORM DAG for example_short_circuit_operator
+[2024-11-20T22:18:06.963-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:18:06.963-0500] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-11-20T22:18:06.982-0500] {processor.py:208} INFO - Processing /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.652 seconds

@@ -1,0 +1,15 @@
+[2024-11-20T22:17:52.262-0500] {processor.py:186} INFO - Started process (PID=11232) to work on /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-11-20T22:17:52.264-0500] {processor.py:914} INFO - Processing file /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-20T22:17:52.265-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.265-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-11-20T22:17:52.274-0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-11-20T22:17:52.553-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.552-0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-11-20T22:17:52.566-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.565-0500] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial
+[2024-11-20T22:17:52.576-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.575-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-11-20T22:17:52.586-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.586-0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial
+[2024-11-20T22:17:52.595-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.595-0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2024-11-20T22:17:52.603-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.602-0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial
+[2024-11-20T22:17:52.611-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.610-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2024-11-20T22:17:52.611-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.611-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T22:17:52.629-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.629-0500] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2024-11-20T22:17:52.654-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:52.654-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-20 00:00:00+00:00, run_after=2024-11-21 00:00:00+00:00
+[2024-11-20T22:17:52.683-0500] {processor.py:208} INFO - Processing /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.428 seconds

@@ -1,0 +1,5 @@
+[2024-11-20T22:17:43.260-0500] {processor.py:186} INFO - Started process (PID=11184) to work on /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-20T22:17:43.262-0500] {processor.py:914} INFO - Processing file /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-11-20T22:17:43.263-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:43.263-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-20T22:17:43.266-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-20T22:17:43.517-0500] {processor.py:208} INFO - Processing /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.262 seconds

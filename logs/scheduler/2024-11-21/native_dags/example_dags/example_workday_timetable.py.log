@@ -1,0 +1,17 @@
+[2024-11-20T22:17:55.313-0500] {processor.py:186} INFO - Started process (PID=11246) to work on /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-20T22:17:55.315-0500] {processor.py:914} INFO - Processing file /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-11-20T22:17:55.316-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.316-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-20T22:17:55.319-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.319-0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-20T22:17:55.325-0500] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-20T22:17:55.528-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.527-0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-20T22:17:55.622-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.621-0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_workday_timetable
+[2024-11-20T22:17:55.630-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.630-0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_workday_timetable
+[2024-11-20T22:17:55.635-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.635-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_workday_timetable
+[2024-11-20T22:17:55.641-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.640-0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_workday_timetable
+[2024-11-20T22:17:55.646-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.645-0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_workday_timetable
+[2024-11-20T22:17:55.651-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.650-0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_workday_timetable
+[2024-11-20T22:17:55.655-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.655-0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_workday_timetable
+[2024-11-20T22:17:55.656-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.656-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T22:17:55.668-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.667-0500] {dag.py:3262} INFO - Creating ORM DAG for example_workday_timetable
+[2024-11-20T22:17:55.679-0500] {logging_mixin.py:190} INFO - [2024-11-20T22:17:55.679-0500] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-11-20T22:17:55.699-0500] {processor.py:208} INFO - Processing /Users/scottbrowning/Desktop/Airflow/py_env/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.393 seconds
