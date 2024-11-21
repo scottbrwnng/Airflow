@@ -1,3 +1,4 @@
 import pandas
 import pprint
-print('hello')
+import os
+print(os.getcwd())
