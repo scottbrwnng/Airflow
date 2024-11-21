@@ -2,4 +2,5 @@ import pandas as pd
 import os
 import sqlalchemy
 import psycopg2
-print(pd.__version__)
+print(sqlalchemy.__version__)
+print('some random fuckin changes')
